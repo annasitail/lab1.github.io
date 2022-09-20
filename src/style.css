@@ -1,0 +1,129 @@
+.my-page{
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 1px 5px 2px rgba(57, 57, 57, 0.7);
+    border-radius: 1px;
+    height: 100%;
+    width: 80%;
+    max-width: 700px;
+    font-family: 'Lato', sans-serif;
+    background-color: aliceblue;
+}
+
+.header {
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid rgb(157, 155, 249);
+    background-color: rgb(216, 237, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.body {
+    padding: 7%;
+}
+
+.body-title {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.body-personal-info {
+    display: block;
+    margin: 0 auto;
+}
+
+.body .col p {
+    font-size: 18px;
+}
+
+.body .row {
+    margin-bottom: 10px;
+}
+
+.body .col {
+    max-width: 150px;
+    min-width: 100px;
+    width: 20%;
+    padding-right: 10px;
+    background-color: rgb(157, 155, 249);
+    border-radius: 10px 0 0 10px;
+    font-size: 17px;
+}
+
+.body .col-10 {
+    width: 80%;
+    border: 2px dashed rgb(184, 183, 248);
+    border-left: none;
+    font-size: 16px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.footer {
+    border-top: 2px solid rgb(157, 155, 249);
+    padding: 25px 7% 10px 7%;
+    background-color: rgb(216, 237, 255);
+}
+
+.footer .col {
+    width: 100%;
+    text-align: center;
+    margin-right: 5px;
+}
+
+.links-text {
+    font-size: 100%;
+    margin-left: 10px;
+    width: 30px;
+}
+
+.fa {
+    padding: 1px;
+    max-width: 30px;
+    height: 30px;
+    font-size: 25px;
+}
+
+.fa-telegram {
+    color: royalblue;
+}
+
+.fa-phone-square {
+    color: green;
+}
+
+.fa-instagram {
+    color: rgb(255, 122, 219);
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-linked-in-square {
+    background-color: rgb(22, 22, 22);
+}
+
+@media screen and (max-width: 710px) {
+    .body .col {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .body .col-10 {
+        width: 100%;
+        border-left: 2px dashed rgb(184, 183, 248);
+    }
+
+    .footer .links-to-follow{
+        display: block;
+        margin: 0 auto;
+    }
+}
